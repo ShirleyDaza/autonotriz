@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios de reparación y mantenimiento automotriz.">
+    <title>Servicios - Servicio Automotriz del Llano J.R.</title>
+    <link rel="stylesheet" href="automotriz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Servicio Automotriz del Llano J.R.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="automotriz.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="servicios" class="seccion">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-lista">
+            <div class="servicio" onclick="abrirModal('modal-reparacion')">
+                <i class="fas fa-tools"></i>
+                <h3>Reparación de Mecánica Automotriz</h3>
+                <p>Ofrecemos diagnósticos avanzados, reparación de motores, frenos y mucho más.</p>
+            </div>
+            <div class="servicio" onclick="abrirModal('modal-latoneria')">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Latonería y Pintura</h3>
+                <p>Restauramos la estética de tu vehículo con acabados de alta calidad.</p>
+            </div>
+            <div class="servicio" onclick="abrirModal('modal-mantenimiento')">
+                <i class="fas fa-wrench"></i>
+                <h3>Mantenimiento Preventivo</h3>
+                <p>Prolonga la vida útil de tu vehículo con nuestro servicio de mantenimiento.</p>
+            </div>
+        </div>
+        <a href="contacto.html" class="btn-cta">Solicita una Cotización</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Servicio Automotriz del Llano J.R. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Ventanas modales -->
+    <div id="modal-reparacion" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarModal('modal-reparacion')">&times;</span>
+            <h2>Reparación de Mecánica Automotriz</h2>
+            <p>Nuestro servicio de reparación mecánica incluye diagnósticos avanzados y soluciones efectivas para todos los problemas mecánicos.</p>
+        </div>
+    </div>
+    <div id="modal-latoneria" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarModal('modal-latoneria')">&times;</span>
+            <h2>Latonería y Pintura</h2>
+            <p>Ofrecemos un servicio completo de latonería y pintura, asegurando un acabado impecable y duradero para tu vehículo.</p>
+        </div>
+    </div>
+    <div id="modal-mantenimiento" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarModal('modal-mantenimiento')">&times;</span>
+            <h2>Mantenimiento Preventivo</h2>
+            <p>Nuestro mantenimiento preventivo ayuda a evitar problemas futuros y asegura que tu vehículo funcione de manera óptima.</p>
+        </div>
+    </div>
+
+    <script src="automotriz.js"></script>
+</body>
+</html>

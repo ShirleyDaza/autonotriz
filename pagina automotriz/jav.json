@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "[python]": {
+      "editor.formatOnType": true
+  },
+  "cmake.configureOnOpen": true,
+  "files.autoSave": "afterDelay",
+  "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+  "launch": {
+      "configurations": []
+  }
+}

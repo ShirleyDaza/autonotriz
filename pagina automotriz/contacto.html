@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ponte en contacto con nosotros para más información sobre nuestros servicios.">
+    <meta name="keywords" content="contacto, taller automotriz, servicio de autos, consulta, reparación de autos">
+    <meta name="author" content="Servicio Automotriz del Llano J.R.">
+    <title>Contacto - Servicio Automotriz del Llano J.R.</title>
+    <link rel="stylesheet" href="automotriz.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #2d2c2c;
+        }
+        header {
+            background-color: #333;
+            color: rgb(248, 112, 49);
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: rgb(52, 51, 51);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            margin: 30px;
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, textarea {
+            width: 80%;
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #333;
+            color: rgb(46, 45, 45);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #474545;
+        }
+        .informacion-contacto {
+            margin-top: 30px;
+        }
+        iframe {
+            margin-top: 20px;
+            border: 0;
+            width: 80%;
+            height: 450px;
+        }
+        footer {
+            background-color: #3c3a3a;
+            color: rgb(174, 174, 174);
+            text-align: center;
+            padding: 15px;
+            width: 100%;
+        }
+        .whatsapp-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Servicio Automotriz del Llano J.R.</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="automotriz.html" class="nav-link">Inicio</a></li>
+                <li><a href="sobrenosotros.html" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contacto" class="seccion">
+        <h2>Contáctanos</h2>
+        <p>Si tienes alguna pregunta, requieres de una cotización, o quieres ponerte en contacto con nosotros:</p>
+        <form action="mailto:vanessadaza159@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
+            <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit" class="btn-cta">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <section id="informacion-contacto">
+        <div class="informacion-contacto">
+            <h3>Información de Contacto</h3>
+            <p><i class="fas fa-phone"></i> Teléfono: 3142181151</p>
+            <a href="https://wa.me/qr/LGG7IWS5HEWIP1" target="_blank" class="whatsapp-button">Contáctanos en WhatsApp</a>
+            <p><i class="fas fa-envelope"></i> Correo: servicioautomotrizdelllano@outlook.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Dirección: Cr 33 #19 – 35</p>
+        </div>
+
+        <div class="mapa-ubicacion">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.427245062674!2d-73.63087702689667!3d4.136048446297678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e73619292cb%3A0x7f7cce60dfec462c!2sCra.%2033%20%2319%2023%2C%20Villavicencio%2C%20Meta!5e0!3m2!1ses!2sco!4v1732232750033!5m2!1ses!2sco" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        
+    </section>
+
+</body>
+</html>
+
+
+    <footer>
+        <p>&copy; 2024 Servicio Automotriz del Llano J.R. | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="automotriz.js"></script>
+</body>
+</html>
